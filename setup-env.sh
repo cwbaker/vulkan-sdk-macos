@@ -2,7 +2,7 @@
 
 # source this file into an existing shell.
 
-VULKAN_SDK="$(cd "$(dirname "$BASH_SOURCE")"; pwd)"
+VULKAN_SDK="$(cd "$(dirname "$BASH_SOURCE")"; pwd)/macOS"
 export VULKAN_SDK
 PATH="$PATH:$VULKAN_SDK/bin"
 export PATH
